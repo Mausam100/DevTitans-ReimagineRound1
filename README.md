@@ -1,10 +1,3 @@
-<style>
-  h1, h2, h3, h4, h5, h6 {
-    text-decoration: none;
-    border: none;
-  }, 
-</style>
-
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
