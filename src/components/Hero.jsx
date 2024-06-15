@@ -8,7 +8,7 @@ import Banner6 from "../assets/images/concerns/acne.png";
 import Model from "../assets/images/girl.png";
 const Hero = () => {
   return (
-    <main className=" px-4 text-[#272727] sm:flex">
+    <main className=" px-4 text-[#272727] sm:flex dg-normal">
       <div className="left-div sm:w-1/2 ">
         {/* want to get rid section start */}
         <div className=" md:mt-10 ">
