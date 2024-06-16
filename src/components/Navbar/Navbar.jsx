@@ -8,8 +8,8 @@ const Navbar = () => {
   return (
     <>
       {/* offer section */}
-      <div className="bg-black text-white">
-        <h2 className=" py-2 pl-4 text-lg sm:text-center">
+      <div className="bg-black text-white dg-normal">
+        <h2 className=" py-2 text-lg sm:text-center">
           <span className=" font-semibold text-lg tracking-wide">
             LUCKY OFFER :{" "}
           </span>
@@ -20,7 +20,7 @@ const Navbar = () => {
         </h2>
       </div>
       {/* navbar */}
-      <nav className="flex justify-between px-4 pt-3 items-center md:gap-10 ">
+      <nav className="flex justify-between px-4 pt-3 items-center md:gap-10 dg-normal">
         <div className="flex gap-6 md:hidden ">
           <IoMenu className="text-2xl" />
           <IoSearch className="text-2xl hidden sm:block md:hidden" />

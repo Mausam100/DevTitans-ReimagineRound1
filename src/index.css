@@ -2,15 +2,96 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: 'Darker';
-    src: url('../src/assets/fonts/DarkerGrotesque-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'Darker';
-    src: url('../src/assets/fonts/DarkerGrotesque-ExtraBold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-  }
+/*
+font-normal	font-weight: 400;
+font-medium	font-weight: 500;
+font-semibold	font-weight: 600;
+font-bold	font-weight: 700;
+font-extrabold	font-weight: 800;
+font-black	font-weight: 900;
+
+dg- darker grotesque : font-family name
+USAGE : example -  in className ="dg-normal"
+dg-{weight-name}
+*/
+
+@font-face{
+  font-family: 'DarkerGrotesque-Light';
+  src: url('./assets/fonts/DarkerGrotesque-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face{
+  font-family: 'DarkerGrotesque-Regular';
+  src: url('./assets/fonts/DarkerGrotesque-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face{
+  font-family: 'DarkerGrotesque-Medium';
+  src: url('./assets/fonts/DarkerGrotesque-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face{
+  font-family: 'DarkerGrotesque-Bold';
+  src: url('./assets/fonts/DarkerGrotesque-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face{
+  font-family: 'DarkerGrotesque-ExtraBold';
+  src: url('./assets/fonts/DarkerGrotesque-ExtraBold.ttf');
+  font-weight: 800;
+}
+
+@font-face{
+  font-family: 'DarkerGrotesque-Black';
+  src: url('./assets/fonts/DarkerGrotesque-Black.ttf');
+  font-weight: 900;
+}
+
+.dg-light{
+  font-family: 'DarkerGrotesque-Light';
+  font-weight: 300;
+}
+
+.dg-normal{
+  font-family: 'DarkerGrotesque-Regular';
+  font-weight: 400;
+}
+
+.dg-medium{
+  font-family: 'DarkerGrotesque-Medium';
+  font-weight: 500;
+}
+
+.dg-bold{
+  font-family: 'DarkerGrotesque-Bold';
+  font-weight: 700;
+}
+
+.dg-extrabold{
+  font-family: 'DarkerGrotesque-ExtraBold';
+  font-weight: 800;
+}
+
+.dg-black{
+  font-family: 'DarkerGrotesque-Black';
+  font-weight: 900;
+}
+
+.div-scrollbar-horizontal{
+  overflow-x: scroll;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  scroll-snap-align: start;
+  scroll-snap-type: proximity;
+}
+
+.body-scroll{
+  scrollbar-width: thin;
+  scrollbar-color: #000000 transparent !important;
+  scrollbar-gutter: auto;
+}
