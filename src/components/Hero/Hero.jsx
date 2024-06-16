@@ -1,12 +1,13 @@
 import React from "react";
-import Banner1 from "../assets/images/concerns/wrinkles.png";
-import Banner2 from "../assets/images/concerns/hairfall.png";
-import Banner3 from "../assets/images/concerns/dandruff.png";
-import Banner4 from "../assets/images/concerns/oiliness.png";
-import Banner5 from "../assets/images/concerns/tone.png";
-import Banner6 from "../assets/images/concerns/acne.png";
+import Banner1 from "../../assets/images/concerns/wrinkles.png";
 
-import Model from "../assets/images/girl.png";
+import Banner2 from "../../assets/images/concerns/hairfall.png";
+import Banner3 from "../../assets/images/concerns/dandruff.png";
+import Banner4 from "../../assets/images/concerns/oiliness.png";
+import Banner5 from "../../assets/images/concerns/tone.png";
+import Banner6 from "../../assets/images/concerns/acne.png";
+
+import Model from "../../assets/images/girl.png";
 const Hero = () => {
   return (
     <main className=" px-4 text-[#272727] sm:flex dg-normal">
