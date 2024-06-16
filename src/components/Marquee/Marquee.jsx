@@ -18,7 +18,7 @@ const Marquee = () => {
         trigger: marquee,
         start: 'top top',
         end: 'bottom top',
-        markers: true,
+        // markers: true,
         scrub: true,
       },
     });

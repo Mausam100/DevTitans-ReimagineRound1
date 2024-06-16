@@ -9,8 +9,8 @@ function App() {
     <main className='h-screen y-screen overflow-y-scroll overflow-x-hidden body-scroll'>
       <Navbar/>
       <Hero/>
-      <Marquee/>
-    <ProductList />
+      {/* <Marquee/> */}
+    {/* <ProductList /> */}
     </main>
     </>
   )
