@@ -1,11 +1,11 @@
 import React from 'react';
 import ProductCard from './ProductCard';
-import bs1 from '../assets/images/bestsellers/bestseller1.avif';
-import bs2 from '../assets/images/bestsellers/bestseller2.avif';
-import bs3 from '../assets/images/bestsellers/bestseller3.avif';
-import bs4 from '../assets/images/bestsellers/bestseller4.avif';
-import bs5 from '../assets/images/bestsellers/bestseller5.avif';
-import bs6 from '../assets/images/bestsellers/bestseller6.avif';
+import bs1 from '../../assets/images/bestsellers/bestseller1.avif';
+import bs2 from '../../assets/images/bestsellers/bestseller2.avif';
+import bs3 from '../../assets/images/bestsellers/bestseller3.avif';
+import bs4 from '../../assets/images/bestsellers/bestseller4.avif';
+import bs5 from '../../assets/images/bestsellers/bestseller5.avif';
+import bs6 from '../../assets/images/bestsellers/bestseller6.avif';
 import { MdArrowForwardIos } from "react-icons/md";
 
 const products = [
