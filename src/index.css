@@ -93,6 +93,5 @@ dg-{weight-name}
 .body-scroll{
   scrollbar-width: thin;
   scrollbar-color: #000000 transparent !important;
-  scrollbar-gutter: stable;
-
+  scrollbar-gutter: auto;
 }

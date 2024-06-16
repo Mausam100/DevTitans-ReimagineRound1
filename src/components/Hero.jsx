@@ -5,6 +5,7 @@ import Banner3 from "../assets/images/concerns/dandruff.png";
 import Banner4 from "../assets/images/concerns/oiliness.png";
 import Banner5 from "../assets/images/concerns/tone.png";
 import Banner6 from "../assets/images/concerns/acne.png";
+
 import Model from "../assets/images/girl.png";
 const Hero = () => {
   return (
@@ -80,11 +81,11 @@ const Hero = () => {
           {/* answer section end */}
 
           {/* a paragraph */}
-          <p className=" my-6 border-2 p-2 text-lg leading-5 sm:w-40 sm:border-0 sm:ml-6 md:border-2 md:w-full">
+          {/* <p className=" my-6 border-2 p-2 text-lg leading-5 sm:w-40 sm:border-0 sm:ml-6 md:border-2 md:w-full">
             Our products are authentic, effective skincare solutions for all
             your concerns, with each cherrypicked element chosen for its
             scientific merit.
-          </p>
+          </p> */}
         </div>
       </div>
 
