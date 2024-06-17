@@ -3,6 +3,7 @@ import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import Marquee from './components/Marquee/Marquee';
 import ProductList from './components/Products/ProductList';
+import ProductList2 from './components/Products/ProductList2';
 function App() {
   return (
     <>
@@ -10,7 +11,12 @@ function App() {
       <Navbar/>
       <Hero/>
       {/* <Marquee/> */}
-    {/* <ProductList /> */}
+      <div className='w-full h-20 bg-zinc-300 m-6'></div>
+    <ProductList />
+    <div className='w-full h-20 bg-zinc-300 m-6'></div>
+    <ProductList2 />
+    <div className='w-full h-20 bg-zinc-300 m-6'></div>
+
     </main>
     </>
   )
