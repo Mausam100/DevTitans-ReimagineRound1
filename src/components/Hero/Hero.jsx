@@ -77,7 +77,7 @@ const Hero = () => {
         {/* answer section end */}
 
         {/* click div */}
-        <div className="right-div">
+        <div className="right-div mt-8">
           <img className="w-full md:h-96" src={Model} />
 
           <h3 className=" text-pink-600 text-3xl text-center sm:text-xl">

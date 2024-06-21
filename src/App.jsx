@@ -10,8 +10,8 @@ function App() {
   return (
     <>
     <main className='h-screen y-screen overflow-y-scroll overflow-x-hidden body-scroll'>
-      {/* <Navbar/>
-      <Hero/> */}
+      <Navbar/>
+      <Hero/>
       {/* <Marquee/> */}
       <div className='w-full h-20 bg-white m-6'></div>
     <ProductList />
