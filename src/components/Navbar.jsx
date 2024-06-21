@@ -2,7 +2,7 @@ import React from "react";
 import { IoMenu, IoSearch } from "react-icons/io5";
 import { CgShoppingCart } from "react-icons/cg";
 import { LuUser } from "react-icons/lu";
-import Logo from "../../assets/icons/logo.png";
+import Logo from "../assets/icons/logo.png";
 
 const Navbar = () => {
   return (
