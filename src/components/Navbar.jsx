@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <>
       {/* offer section */}
-      <div className="bg-black text-white dg-normal">
+      <div className="bg-black text-white dg-normal whitespace-nowrap overflow-scroll">
         <h2 className=" py-2 text-lg sm:text-center">
           <span className=" font-semibold text-lg tracking-wide">
             LUCKY OFFER :{" "}
