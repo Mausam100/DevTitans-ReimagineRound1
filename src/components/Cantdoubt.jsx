@@ -16,14 +16,9 @@ function Cantdoubt() {
                         <Proofcard/>
                     </div>
                     <div className='flex flex-col md:flex-row'>
-                        {/* <Proofcard/> */}
-
-                        {/* ye hai bhai ------------
-                        
-                        dekhle hahahaha ---------- neeche*/}
 
                         <div className='w-full h-24 bg-neutral-300'>
-                            <div className='w- h-full bg-zinc-400 rounded-3xl'>
+                            <div className='w-24 h-24 bg-zinc-400 rounded-3xl flex justify-center items-center'>
                                 <img src={transparency} className='w-1/2 h-1/2' alt="" />
                             </div>
                             <div className='w-2/3 h-full'></div>
