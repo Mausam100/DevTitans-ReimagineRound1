@@ -13,11 +13,11 @@ function App() {
       <Navbar/>
       <Hero/>
       {/* <Marquee/> */}
-      <div className='w-full h-20 bg-white m-6'></div>
+      {/* <div className='w-full h-20 bg-white m-6'></div> */}
     <ProductList />
-    <div className='w-full h-20 bg-white m-6'></div>
+    {/* <div className='w-full h-20 bg-white m-6'></div> */}
     <ProductList2 />
-    <div className='w-full h-20 bg-white m-6'></div>
+    {/* <div className='w-full h-20 bg-white m-6'></div> */}
     <Footer />
     </main>
     </>
