@@ -3,6 +3,7 @@ import Proofcard from './Proofcard'
 
 function Cantdoubt() {
   return (
+    <>
     <div className=" px-4 w-screen h-screen flex flex-col md:flex-row">
       <div className="triple-capcule scroll h-[20%]"></div>
 
@@ -24,9 +25,9 @@ function Cantdoubt() {
           </div>
         </div>
         <div className="rightdt "></div>
-      </div>
-    </div>
-  );
+       
+        </>
+      );
 }
 
 export default Cantdoubt;

@@ -16,7 +16,7 @@ function App() {
       <Navbar/>
       <Hero/>
       {/* <Animtext/> */}
-      <Cantdoubt/>
+      {/* <Cantdoubt/> */}
       {/* <Marquee/> */}
       {/* <ProductList /> */}
       {/* <ProductList2 /> */}
