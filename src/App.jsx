@@ -15,13 +15,13 @@ function App() {
     <main className='h-screen y-screen overflow-y-scroll overflow-x-hidden body-scroll dg-normal'>
       <Navbar/>
       <Hero/>
-      {/* <Animtext/> */}
-      {/* <Cantdoubt/> */}
-      {/* <Marquee/> */}
-      {/* <ProductList /> */}
-      {/* <ProductList2 /> */}
+      <Animtext/>
+      <Cantdoubt/>
+      <Marquee/>
+      <ProductList />
+      <ProductList2 />
           <DownloadApp/>
-       {/* <Footer /> */}
+       <Footer />
     </main>
     </>
   )
