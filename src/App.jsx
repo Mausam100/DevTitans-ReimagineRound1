@@ -2,8 +2,8 @@ import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Marquee from "./components/Marquee";
-import ProductList from "./components/ProductList";
-import ProductList2 from "./components/ProductList2";
+import BestSelling from "./components/BestSelling";
+import NewLaunches from "./components/NewLaunches";
 import CatagoryGrid from "./components/CatagoryGrid";
 import Footer from "./components/Footer";
 import Animtext from "./components/Animtext";
@@ -18,8 +18,8 @@ function App() {
         <Animtext />
         <Cantdoubt />
         <Marquee />
-        <ProductList />
-        <ProductList2 />
+        <BestSelling />
+        <NewLaunches />
         <DownloadApp />
         <Footer />
       </main>
