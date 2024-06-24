@@ -49,7 +49,7 @@ const Hero = () => {
     
 
 
-    <main className="w-full h-fit flex flex-col md:flex-row p-5 md:p-10 mt-8 justify-evenly">
+    <main className="w-full h-fit flex flex-col md:flex-row p-5 md:p-10 mt-8 justify-evenly gap-10 md:gap-0">
 
       <div id="left" className="w-full md:w-1/2 flex flex-col justify-evenly gap-5">
 
@@ -108,7 +108,7 @@ const Hero = () => {
           <button className="group flex flex-row gap-1 justify-evenly items-center border-[1px] border-neutral-700 rounded-3xl px-[0.75vw] py-[0.5vw] transition-color duration-300 bg-white text-black hover:bg-black hover:text-white">
 
             <LuDot className="w-6 h-auto roup-hover:opacity-0 group-hover:-translate-x-1 transition-transform duration-300 opacity-100"/>
-            <span className="dg-bold md:text-xl text-nowrap uppercase -translate-y-0.5 group-hover:-translate-x-1 transition-transform duration-300">Shop Now</span>
+            <span className="dg-bold text-2xl md:text-xl text-nowrap uppercase -translate-y-0.5 group-hover:-translate-x-1 transition-transform duration-300">Shop Now</span>
             <FaArrowRightLong className="w-4 h-auto group-hover:opacity-100 group-hover:translate-x-1 transition-transform duration-300 opacity-0" />
 
           </button>
