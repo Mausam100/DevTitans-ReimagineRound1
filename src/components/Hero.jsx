@@ -7,85 +7,123 @@ import Banner1 from "../assets/images/concerns/wrinkles.png";
 import Banner6 from "../assets/images/concerns/acne.png";
 import Quemark from "../assets/icons/quemark.svg";
 import Model from "../assets/images/girl.png";
+import { LuDot } from "react-icons/lu";
+import { FaArrowRightLong } from "react-icons/fa6";
+
+const concerns = [
+  {
+    id: 1,
+    name: "Wrinkles",
+    image: Banner1
+  },
+  {
+    id: 2,
+    name: "Hair fall",
+    image: Banner2
+  },
+  {
+    id: 3,
+    name: "Dandruff",
+    image: Banner3
+  },
+  {
+    id: 4,
+    name: "Oiliness",
+    image: Banner4
+  },
+  {
+    id: 5,
+    name: "Uneven Tone",
+    image: Banner5
+  },
+  {
+    id: 6,
+    name: "Acne",
+    image: Banner6
+  }
+]
+
 const Hero = () => {
   return (
-    <main className="px-4 md:flex gap-8">
-      {/* want to get rid section start */}
+    <>
+    
 
-      <div className=" md:w-1/2">
-        <h1 className=" text-4xl mt-10 font-thin">Want to get rid of</h1>
 
-        <div className="">
-          <div className=" relative flex items-center gap-2  py-2">
-            <div className=" w-1/3">
-              <h4 className="text-center font-semibold ">Wrinkles</h4>
+    <main className="w-full h-fit flex flex-col md:flex-row p-5 md:p-10 mt-8 justify-evenly gap-10 md:gap-0">
 
-              <img className=" w-full" src={Banner1} alt="" />
+      <div id="left" className="w-full md:w-1/2 flex flex-col justify-evenly gap-5">
+
+        <h2 className="text-4xl sm:text-4xl md:text-[3vw] dg-normal">
+          Want to get rid of
+        </h2>
+
+        <div className="dg-bold relative w-full sm:w-[85%] md:w-3/4">
+          <div className=" flex items-center gap-2 py-2">
+            {concerns.slice(0,3).map(item => (
+              <div className="w-1/3">
+                <h4 className="text-center">{item.name}</h4>
+                <div style={{aspectRatio:16/9}} className="w-full overflow-hidden object-cover">
+                  <img className="w-full h-auto" src={item.image} alt="" />
+                </div>
             </div>
-            <div className=" w-1/3">
-              <h4 className="text-center font-semibold ">Hair fall</h4>
-              <img className=" w-full" src={Banner2} alt="" />
-            </div>
-            <div className=" w-1/3">
-              <h4 className="text-center font-semibold ">Dandruff</h4>
-              <img className=" w-full" src={Banner3} alt="" />
-            </div>
-            <div className="hidden sm:block w-20 "></div>
-            <img
+            ))}
+            
+            <img id="question-mark"
               src={Quemark}
               alt="?"
-              className=" absolute right-0 -top-14 h-14 sm:-top-8 sm:h-28 sm:-right-2"
+              className="absolute right-0 top-0 translate-y-[-110%] -translate-x-[0%] sm:translate-y-[-15%] sm:translate-x-[120%] md:translate-x-[110%] h-[28%] sm:h-[40%] md:h-[50%]"
             />
+
           </div>
-          <div className="flex items-center gap-2">
-            <div className="hidden sm:block w-20 "></div>
-            <div className=" w-1/3">
-              <img className=" w-full" src={Banner4} alt="" />
-              <h4 className="text-center font-semibold ">Oiliness</h4>
-            </div>
-            <div className="w-1/3">
-              <img className=" w-full" src={Banner5} alt="" />
-              <h4 className="text-center font-semibold text-nowrap ">
-                Uneneven Tone
-              </h4>
-            </div>
-            <div className="w-1/3">
-              <img className=" w-full" src={Banner6} alt="" />
-              <h4 className="text-center font-semibold ">Acne</h4>
-            </div>
+
+          <div className="flex items-center gap-2 sm:translate-x-[15%]">
+            {concerns.slice(3,6).map(item => (
+               <div className="">
+                <div style={{aspectRatio:16/9}} className="w-full overflow-hidden object-cover">
+                  <img className="w-full h-auto" src={item.image} alt="" />
+                </div>
+                <h4 className="text-center ">{item.name}</h4>
+             </div>
+            ))}
+           
           </div>
+
+
+
         </div>
-        <h2 className=" text-3xl pt-4 font-thin">
+        
+        <h2 className="text-4xl sm:text-4xl md:text-[3vw] lg:text-3xl xl:text-4xl dg-normal ">
           or Want FLAWLESS skin & hairs ?
         </h2>
+
+
       </div>
 
-      {/* want to get rid section end */}
+      <div id="right" className="w-full md:w-1/2 flex flex-col gap-5 sm:flex-row sm:justify-around items-start sm:items-center md:text-center">
+      
+        <div id="button" className="flex flex-col gap-5">
 
-      <div className=" md:w-1/2 gap-8 sm:flex sm:items-center sm:justify-between pt-10">
-        {/* answer section start */}
-        <div className=" pt-4">
-          <h1 className=" font-semibold text-4xl my-6">yes?</h1>
-          <p className=" text-2xl font-light leading-6">
-            Get Results with our <br />
-            Tried and Tested Products
-          </p>
-          <button className=" my-4 px-4 pb-1 text-black border-black border-2 text-2xl font-semibold rounded-3xl">
-            Shop Now
+          <h3 className="text-4xl sm:text-4xl md:text-4xl dg-bold">yes?</h3>
+          <p className="text-2xl sm:text-2xl md:text-2vw leading-none text-nowrap ">Get Results with our<br />Tried and Tested<br />Products</p>
+          <button className="group flex flex-row gap-1 justify-evenly items-center border-[1px] border-neutral-700 rounded-3xl px-[0.75vw] py-[0.5vw] transition-color duration-300 bg-white text-black hover:bg-black hover:text-white">
+
+            <LuDot className="w-6 h-auto roup-hover:opacity-0 group-hover:-translate-x-1 transition-transform duration-300 opacity-100"/>
+            <span className="dg-bold text-2xl md:text-xl text-nowrap uppercase -translate-y-0.5 group-hover:-translate-x-1 transition-transform duration-300">Shop Now</span>
+            <FaArrowRightLong className="w-4 h-auto group-hover:opacity-100 group-hover:translate-x-1 transition-transform duration-300 opacity-0" />
+
           </button>
-        </div>
-        {/* answer section end */}
 
-        {/* click div */}
-        <div className="right-div mt-8">
-          <img className="w-full md:h-96" src={Model} />
-
-          <h3 className=" text-pink-600 text-3xl text-center sm:text-xl">
-            click to know my beauty secret
-          </h3>
         </div>
+        <div id="image" className="">
+
+          <img src={Model} alt="model" className="w-full h-auto" />
+          <p className=""></p>
+
+        </div>
+
       </div>
     </main>
+    </>
   );
 };
 
