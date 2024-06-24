@@ -5,35 +5,32 @@ const DownloadApp = () => {
   return (
     <section className="p-10 md:flex ">
       <div className="sm:flex gap-4 md:w-2/3">
-      <div className="img mt-8 hidden sm:block sm:w-48 ">
-        <img className="w-full h-auto" src={Mobile} alt="App" />
-      </div>
-      <div className=" sm:al flex flex-col items-center md:w-1/3">
-        <h2 className=" text-7xl">Download Our </h2>
-        <h3 className=" text-8xl -mt-4 ">App </h3>
-        <p className=" text-2xl p-2">Get App Exclusive Discounts & Offers</p>
-        <div className=" text-xl p-2">
-          <li>Track your orders</li>
-          <li>Get in touch with Skincare experts</li>
-          <li>Save your routine</li>
-          <li>Get special offers & discounts</li>
+        <div className="img mt-8 hidden sm:block sm:w-48 ">
+          <img className="w-full h-auto" src={Mobile} alt="App" />
         </div>
-        <div className="buttons flex justify-evenly w-full p-2">
-          <button className=" bg-black text-white px-10 py-2 rounded-3xl text-2xl font-semibold">
-            Play Store
-          </button>
-          <button className="bg-black text-white px-10 py-2 rounded-3xl text-2xl font-semibold">
-            App Store
-          </button>
+        <div className=" sm:al flex flex-col items-center md:w-1/3">
+          <h2 className=" text-7xl">Download Our </h2>
+          <h3 className=" text-8xl -mt-4 ">App </h3>
+          <p className=" text-2xl p-2">Get App Exclusive Discounts & Offers</p>
+          <div className=" text-xl p-2">
+            <li>Track your orders</li>
+            <li>Get in touch with Skincare experts</li>
+            <li>Save your routine</li>
+            <li>Get special offers & discounts</li>
+          </div>
+          <div className="buttons flex justify-evenly w-full p-2">
+            <button className=" bg-black text-white px-10 py-2 rounded-3xl text-2xl font-semibold">
+              Play Store
+            </button>
+            <button className="bg-black text-white px-10 py-2 rounded-3xl text-2xl font-semibold">
+              App Store
+            </button>
+          </div>
         </div>
-      </div>
-
       </div>
       <div className="modelimg hidden md:block w-[30%] ml-40">
         <img className="w-full" src={Face} />
       </div>
-      
-     
     </section>
   );
 };

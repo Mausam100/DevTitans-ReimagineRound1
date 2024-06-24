@@ -1,7 +1,7 @@
-import React, { useEffect, useRef } from 'react';
-import gsap from 'gsap';
-import { useGSAP } from '@gsap/react';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import React, { useEffect, useRef } from "react";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -13,11 +13,11 @@ const Marquee = () => {
 
     gsap.to(marquee, {
       xPercent: -100,
-      ease: 'none',
+      ease: "none",
       scrollTrigger: {
         trigger: marquee,
-        start: 'top top',
-        end: 'bottom top',
+        start: "top top",
+        end: "bottom top",
         // markers: true,
         scrub: true,
       },
