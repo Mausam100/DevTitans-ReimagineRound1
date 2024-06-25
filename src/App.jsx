@@ -21,6 +21,7 @@ function App() {
         <BestSelling />
         <NewLaunches />
         <DownloadApp />
+        <CatagoryGrid />
         <Footer />
       </main>
     </>
