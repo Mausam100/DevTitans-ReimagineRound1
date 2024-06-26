@@ -1,11 +1,10 @@
-import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import BestSellingMarquee from "./components/BestsellingMarquee";
 import BestSelling from "./components/BestSelling";
-import NewLaunchesMarquee from "./components/NewLaunchesMarqee"
+import NewLaunchesMarquee from "./components/NewLaunchesMarqee";
 import NewLaunches from "./components/NewLaunches";
-import ShoppingMarquee from "./components/ShoppingMarquee"
+import ShoppingMarquee from "./components/ShoppingMarquee";
 import CatagoryGrid from "./components/CatagoryGrid";
 import Footer from "./components/Footer";
 import Animtext from "./components/Animtext";

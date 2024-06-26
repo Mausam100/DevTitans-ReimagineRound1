@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 const concernPoints = [
   { point: "Fine Lines" },
@@ -19,17 +19,17 @@ const ConcernMarquee = () => {
         <h2 className="text-3xl">Our SOLUTIONS TREAT</h2>
       </div>
       {/* ------------------- fist merquee-------------------- */}
-      <motion.div 
-      className="flex gap-3 mt-4 mb-4 "
-       animate={{x:[0, -1000]}}
-       transition={{
-        x:{
-          repeat: Infinity,
-          repeatType: 'loop',
-          duration: 15,
-          ease: 'linear'
-        }
-       }}
+      <motion.div
+        className="flex gap-3 mt-4 mb-4 "
+        animate={{ x: [0, -1000] }}
+        transition={{
+          x: {
+            repeat: Infinity,
+            repeatType: "loop",
+            duration: 15,
+            ease: "linear",
+          },
+        }}
       >
         {concernPoints.map((point, index) => (
           <div
@@ -39,7 +39,7 @@ const ConcernMarquee = () => {
             {point.point}
           </div>
         ))}
-         {concernPoints.map((point, index) => (
+        {concernPoints.map((point, index) => (
           <div
             key={`duplicate-${index}`}
             className="flex text-nowrap justify-center items-center border-[1px] border-neutral-700 rounded-3xl px-9 py-[1.2vh] transition-colors duration-300 bg-white text-black hover:bg-black hover:text-white"
@@ -51,17 +51,17 @@ const ConcernMarquee = () => {
 
       {/* ------------------- second merquee-------------------- */}
 
-      <motion.div 
-      className="flex gap-3 mt-4 mb-4"
-       animate={{x:[-1000,0]}}
-       transition={{
-        x:{
-          repeat: Infinity,
-          repeatType: 'loop',
-          duration: 20,
-          ease: 'linear'
-        }
-       }}
+      <motion.div
+        className="flex gap-3 mt-4 mb-4"
+        animate={{ x: [-1000, 0] }}
+        transition={{
+          x: {
+            repeat: Infinity,
+            repeatType: "loop",
+            duration: 20,
+            ease: "linear",
+          },
+        }}
       >
         {concernPoints.map((point, index) => (
           <div
@@ -71,7 +71,7 @@ const ConcernMarquee = () => {
             {point.point}
           </div>
         ))}
-         {concernPoints.map((point, index) => (
+        {concernPoints.map((point, index) => (
           <div
             key={`duplicate-${index}`}
             className="flex text-nowrap justify-center items-center border-[1px] border-neutral-700 rounded-3xl px-9 py-[1.2vh] transition-colors duration-300 bg-white text-black hover:bg-black hover:text-white"
@@ -83,17 +83,17 @@ const ConcernMarquee = () => {
 
       {/* ------------------- third merquee-------------------- */}
 
-      <motion.div 
-      className="flex gap-3 mt-4 mb-4"
-       animate={{x:[0, -1000]}}
-       transition={{
-        x:{
-          repeat: Infinity,
-          repeatType: 'loop',
-          duration: 15,
-          ease: 'linear'
-        }
-       }}
+      <motion.div
+        className="flex gap-3 mt-4 mb-4"
+        animate={{ x: [0, -1000] }}
+        transition={{
+          x: {
+            repeat: Infinity,
+            repeatType: "loop",
+            duration: 15,
+            ease: "linear",
+          },
+        }}
       >
         {concernPoints.map((point, index) => (
           <div
@@ -103,7 +103,7 @@ const ConcernMarquee = () => {
             {point.point}
           </div>
         ))}
-         {concernPoints.map((point, index) => (
+        {concernPoints.map((point, index) => (
           <div
             key={`duplicate-${index}`}
             className="flex text-nowrap justify-center items-center border-[1px] border-neutral-700 rounded-3xl px-9 py-[1.2vh] transition-colors duration-300 bg-white text-black hover:bg-black hover:text-white"
@@ -112,7 +112,6 @@ const ConcernMarquee = () => {
           </div>
         ))}
       </motion.div>
-
     </div>
   );
 };

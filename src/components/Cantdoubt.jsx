@@ -37,7 +37,7 @@ function Cantdoubt() {
                   <div className="w-2/3 h-full flex flex-col items-start justify-center">
                     <h3 className="text-2xl">Efficacy</h3>
                     <p className="text-md leading-none">
-                    Formulations developed in our in-house laboratories
+                      Formulations developed in our in-house laboratories
                     </p>
                   </div>
                 </div>
@@ -50,7 +50,7 @@ function Cantdoubt() {
                   <div className="w-2/3 h-full flex flex-col items-start justify-center">
                     <h3 className="text-2xl">Affordable</h3>
                     <p className="text-md leading-none">
-                    Quality Skincare for all
+                      Quality Skincare for all
                     </p>
                   </div>
                 </div>
@@ -61,7 +61,7 @@ function Cantdoubt() {
                   <div className="w-2/3 h-full flex flex-col items-start justify-center">
                     <h3 className="text-2xl">Best Ingredients</h3>
                     <p className="text-md leading-none">
-                    sourced from across the world
+                      sourced from across the world
                     </p>
                   </div>
                 </div>
