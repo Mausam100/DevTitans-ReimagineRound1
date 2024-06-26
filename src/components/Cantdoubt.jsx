@@ -7,7 +7,7 @@ import BestIngrideints from "../assets/images/globe.svg";
 function Cantdoubt() {
   return (
     <>
-      <div className=" px-4 w-full h-auto flex flex-col md:flex-row">
+      <div className=" mb-10 px-4 w-full flex flex-col md:flex-row">
         {/* <div className="triple-capcule scroll h-[20%]"></div> */}
 
         <div className="w-full sm:w-[65%] md:w-[50%] md p-5">

@@ -46,7 +46,7 @@ const concerns = [
 const Hero = () => {
   return (
     <>
-      <main className="w-full h-fit flex flex-col md:flex-row p-5 md:p-10 mt-8 justify-evenly gap-10 md:gap-0">
+      <main className=" bg-white w-full h-fit flex flex-col md:flex-row p-5 md:p-10 mt-8 justify-evenly gap-10 md:gap-0">
         <div
           id="left"
           className="w-full md:w-1/2 flex flex-col justify-evenly gap-5"
