@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import Animtext from "./components/Animtext";
 import Cantdoubt from "./components/Cantdoubt";
 import DownloadApp from "./components/DownloadApp";
+import ConcernMarquee from "./components/ConcernMarquee";
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
         <Navbar />
         <Hero />
         <Animtext />
+        <ConcernMarquee />
         <Cantdoubt />
         <Marquee />
         <BestSelling />

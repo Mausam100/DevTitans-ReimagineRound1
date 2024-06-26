@@ -11,7 +11,7 @@ function Cantdoubt() {
         {/* <div className="triple-capcule scroll h-[20%]"></div> */}
 
         <div className="w-full sm:w-[65%] md:w-[50%] md p-5">
-          <h1 className="text-7xl py-2 font-[400] uppercase mb-5">
+          <h1 className=" text-5xl sm:text-6xl md:text-7xl py-2 font-[400] uppercase mb-5">
             CAN’T DOUBT OUR
             <br />
             PRODUCTS{" "}
