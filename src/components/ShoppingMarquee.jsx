@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Marquee = () => {
   return (
-    <div className="overflow-hidden whitespace-nowrap py-2">
+    <div className="overflow-hidden whitespace-nowrap py-2 mt-10">
       <motion.div
         animate={{ x: [-1000, 0] }}
         transition={{
