@@ -58,13 +58,13 @@ const Hero = () => {
           <div className="dg-bold relative w-full sm:w-[85%] md:w-3/4">
             <div className=" flex items-center gap-2 py-2">
               {concerns.slice(0, 3).map((item) => (
-                <div className="w-1/3">
+                <div className="w-1/3 rounded-lg overflow-hidden">
                   <h4 className="text-center">{item.name}</h4>
                   <div
                     style={{ aspectRatio: 16 / 9 }}
                     className="w-full overflow-hidden object-cover"
                   >
-                    <img className="w-full h-auto" src={item.image} alt="" />
+                    <img className="w-full h-auto rounded-lg overflow-hidden" src={item.image} alt="" />
                   </div>
                 </div>
               ))}
@@ -79,14 +79,13 @@ const Hero = () => {
 
             <div className="flex items-center gap-2 sm:translate-x-[15%]">
               {concerns.slice(3, 6).map((item) => (
-                <div className="">
+                <div className="rounded-lg overflow-hidden w-1/3">
                   <div
                     style={{ aspectRatio: 16 / 9 }}
-                    className="w-full overflow-hidden object-cover"
-                  >
-                    <img className="w-full h-auto" src={item.image} alt="" />
+                    className="w-full overflow-hidden rounded-lg">
+                        <img className="w-full h-auto" src={item.image} alt="" />
                   </div>
-                  <h4 className="text-center ">{item.name}</h4>
+                  <h4 className="text-center">{item.name}</h4>
                 </div>
               ))}
             </div>
