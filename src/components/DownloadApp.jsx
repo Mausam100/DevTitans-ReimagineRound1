@@ -3,12 +3,12 @@ import Mobile from "../assets/images/AppImg.png";
 import Face from "../assets/images/face.png";
 const DownloadApp = () => {
   return (
-    <section className="p-10 md:flex ">
-      <div className="sm:flex gap-4 md:w-2/3">
-        <div className="img mt-8 hidden sm:block sm:w-48 ">
-          <img className="w-full h-auto" src={Mobile} alt="App" />
+    <section className="p-10 md:flex md:p-0  ">
+      <div className=" sm:flex gap-4 md:w-2/3 ">
+        <div className="img mt-8 hidden sm:block sm:w-48 md:w-72 md:mt-0 md:ml-4 ">
+          <img className="w-full h-auto " src={Mobile} alt="App" />
         </div>
-        <div className=" sm:al flex flex-col items-center md:w-1/3">
+        <div className=" sm:al flex flex-col items-center md:ml-4">
           <h2 className=" text-7xl">Download Our </h2>
           <h3 className=" text-8xl -mt-4 ">App </h3>
           <p className=" text-2xl p-2">Get App Exclusive Discounts & Offers</p>
@@ -28,8 +28,8 @@ const DownloadApp = () => {
           </div>
         </div>
       </div>
-      <div className="modelimg hidden md:block w-[30%] ml-40">
-        <img className="w-full" src={Face} />
+      <div className=" modelimg hidden md:flex w-[30%] ml-40 justify-end ">
+        <img className="w-full md:w-80 h-full" src={Face} />
       </div>
     </section>
   );
