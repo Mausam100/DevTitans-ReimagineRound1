@@ -6,7 +6,7 @@ const Marquee = () => {
   return (
     <div className="overflow-hidden whitespace-nowrap py-2 mt-10">
       <motion.div
-        animate={{ x: [-1000, 0] }}
+        animate={{ x: [0, -1000] }}
         transition={{
           x: {
             repeat: Infinity,
