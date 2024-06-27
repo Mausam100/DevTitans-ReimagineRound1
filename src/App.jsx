@@ -26,9 +26,9 @@ function App() {
           <BestSelling />
           <NewLaunchesMarquee />
           <NewLaunches />
-          <DownloadApp />
           <ShoppingMarquee />
           <CatagoryGrid />
+          <DownloadApp />
           <Footer />
         </main>
       </div>
