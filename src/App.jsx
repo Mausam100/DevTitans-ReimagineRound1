@@ -11,12 +11,16 @@ import Animtext from "./components/Animtext";
 import Cantdoubt from "./components/Cantdoubt";
 import DownloadApp from "./components/DownloadApp";
 import ConcernMarquee from "./components/ConcernMarquee";
+import OfferMarquee from "./components/OfferMarquee";
+
 
 function App() {
   return (
     <div className=" w-screen h-auto ">
-      <div className="2xl:flex 2xl:justify-center ">
-        <main className="2xl:w-[1440px] bg-white 2xl:border-2 2xl:rounded-3xl border-black mx-auto relative overflow-y-scroll overflow-x-hidden body-scroll dg-normal">
+      <OfferMarquee />
+      <div className="2xl:flex 2xl:justify-center 2xl: items-start">
+        <main className="2xl:w-[1440px] bg-white mx-auto relative overflow-y-scroll overflow-x-hidden dg-normal">
+          
           <Navbar />
           <Hero />
           <Animtext />
