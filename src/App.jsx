@@ -20,7 +20,6 @@ function App() {
       <OfferMarquee />
       <div className="2xl:flex 2xl:justify-center 2xl: items-start">
         <main className="2xl:w-[1440px] bg-white mx-auto relative overflow-y-scroll overflow-x-hidden dg-normal">
-          
           <Navbar />
           <Hero />
           <Animtext />
