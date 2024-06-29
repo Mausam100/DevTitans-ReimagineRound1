@@ -26,7 +26,7 @@ const ConcernMarquee = () => {
           x: {
             repeat: Infinity,
             repeatType: "loop",
-            duration: 15,
+            duration: 30,
             ease: "linear",
           },
         }}
@@ -58,7 +58,7 @@ const ConcernMarquee = () => {
           x: {
             repeat: Infinity,
             repeatType: "loop",
-            duration: 20,
+            duration: 25,
             ease: "linear",
           },
         }}
@@ -90,7 +90,7 @@ const ConcernMarquee = () => {
           x: {
             repeat: Infinity,
             repeatType: "loop",
-            duration: 15,
+            duration: 30,
             ease: "linear",
           },
         }}

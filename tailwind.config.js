@@ -9,6 +9,10 @@ export default {
       fontFamily: {
         darker: ['Darker'],
       },
+      transitionProperty: {
+        'stroke-dasharray': 'stroke-dasharray',
+        'stroke-dashoffset': 'stroke-dashoffset',
+      },
     },
   },
   plugins: [],

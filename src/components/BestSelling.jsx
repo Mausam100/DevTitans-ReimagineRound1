@@ -21,7 +21,7 @@ const ProductList = () => {
           <ProductCard key={product.id} product={product} />
         ))}
       </div>
-      <div className="lg:w-[20%] sm:w-full h-auto">
+      <div className=" flex items-center lg:w-[20%] sm:w-full h-auto">
         <button>
           <div className="flex flex-row items-center justify-center gap-5 uppercase text-2xl dg-normal sm:p-10 lg:p-20">
             <span>See all</span>

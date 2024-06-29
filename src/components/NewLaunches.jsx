@@ -10,10 +10,10 @@ const ProductList = () => {
         <h4 className="text-2xl dg-normal uppercase text-zinc-500 leading-3">
           Our
         </h4>
-        <h2 className="text-5xl dg-normal uppercase text-black leading-none tracking-tight">
-          New
+        <h2 className="text-5xl mt-2 leading-8 dg-normal uppercase text-black tracking-tight">
+          <span className="">New</span>
           <br />
-          launches
+          <span className=" text-4xl">launches</span>
         </h2>
       </div>
       <div className="pb-10 ld:w-[60%] h-auto flex flex-row div-scrollbar-horizontal rounded-xl snap-x sm:self-center sm:w-[90%]">
@@ -21,7 +21,7 @@ const ProductList = () => {
           <ProductCard key={product.id} product={product} />
         ))}
       </div>
-      <div className="lg:w-[20%] sm:w-full h-auto">
+      <div className="flex items-center lg:w-[20%] sm:w-full h-auto">
         <button>
           <div className="flex flex-row items-center justify-center gap-5 uppercase text-2xl dg-normal sm:p-10 lg:p-20">
             <span>See all</span>

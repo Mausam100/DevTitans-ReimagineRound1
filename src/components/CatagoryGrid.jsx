@@ -10,12 +10,12 @@ function CatagoryGrid() {
           Shop
         </h4>
         <h2 className="text-5xl dg-normal uppercase text-center text-black leading-none tracking-tight text-nowrap">
-          by Catagory
+          by Category
         </h2>
       </div>
 
-      <div className="flex flex-col justify-center items-center gap-10">
-        <div className="flex flex-row justify-center items-center gap-10">
+      <div className="flex flex-col justify-center items-center gap-8 cursor-pointer">
+        <div className="flex flex-row justify-center items-center gap-8">
           {catagoryData.slice(0, 2).map((category) => (
             <CatagoryCard
               key={category.num}
@@ -24,7 +24,7 @@ function CatagoryGrid() {
             />
           ))}
         </div>
-        <div className="flex flex-row justify-center items-center gap-10">
+        <div className="flex flex-row justify-center items-center gap-8">
           {catagoryData.slice(2, 4).map((category) => (
             <CatagoryCard
               key={category.num}
@@ -33,7 +33,7 @@ function CatagoryGrid() {
             />
           ))}
         </div>
-        <div className="flex flex-row justify-center items-center gap-10">
+        <div className="flex flex-row justify-center items-center gap-8">
           {catagoryData.slice(4, 6).map((category) => (
             <CatagoryCard
               key={category.num}
@@ -48,4 +48,3 @@ function CatagoryGrid() {
 }
 
 export default CatagoryGrid;
-
