@@ -18,6 +18,7 @@ import haircare from '../assets/images/category/hair_care.jpg';
 import bodycare from '../assets/images/category/body_care.jpg';
 import lipcare from '../assets/images/category/lip_care.jpg';
 import eyecare from '../assets/images/category/eye_care.jpg';
+import { comment } from 'postcss';
 
 const Bestsellers = [
     {
@@ -122,7 +123,15 @@ const Newlaunches = [
 ];
 
 const TestimonialData = [
-  {},
+  {
+    id: 1,
+    emoji: "",
+    customer_name: "",
+    title: "",
+    comment: "",
+    date: "",
+    product_name: "",
+  },
 ]
 
 
