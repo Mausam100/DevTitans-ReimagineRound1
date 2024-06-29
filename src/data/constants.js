@@ -114,4 +114,8 @@ const Newlaunches = [
     }
 ];
 
-export { Bestsellers, Newlaunches };
+const TestimonialData = [
+  {},
+]
+
+export { Bestsellers, Newlaunches, TestimonialData };

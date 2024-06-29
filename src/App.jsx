@@ -12,6 +12,7 @@ import Cantdoubt from "./components/Cantdoubt";
 import DownloadApp from "./components/DownloadApp";
 import ConcernMarquee from "./components/ConcernMarquee";
 import OfferMarquee from "./components/OfferMarquee";
+import Testimonials from "./components/Testimonials";
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
           <NewLaunches />
           <ShoppingMarquee />
           <CatagoryGrid />
+          <Testimonials />
           <DownloadApp />
           <Footer />
         </main>
