@@ -1,31 +1,31 @@
 import React from 'react';
 
-function TestimonialCard() {
+function TestimonialCard({emoji, customer_name, title, comment, date, product_name}) {
   return (
     <>
-    <div className="bg-[#E5E9EA] p-4 rounded-lg shadow-md max-w-md mx-auto my-4">
+    <div className="bg-[#E5E9EA] p-5 w-fit h-64 rounded-lg shadow-md max-w-md mx-auto my-4">
       <div className="flex items-center justify-between mb-2">
         <div className="flex items-center">
           <img 
-            src="https://via.placeholder.com/40" 
+            src={emoji} 
             alt="Avatar" 
             className="rounded-full w-10 h-10 mr-2"
           />
           <div className="text-sm">
-            <p className="font-semibold text-gray-800">Shrayasi B.</p>
+            <p className="dg-semibold text-gray-800">{customer_name}</p>
           </div>
         </div>
         <div className="text-sm text-gray-500">
-          06/09/24
+          {date}
         </div>
       </div>
       <div className="text-gray-800">
-        <h3 className="font-semibold mb-2">After Finishing two Bottles...</h3>
-        <p className="mb-2">
-          Minimalist 10% vitamin c is the only product which shows result on my skin. I am obsessed with the result of this product. My must have from minimalist.
+        <h3 className="dg-bold text-xl mb-4">{title}</h3>
+        <p className="mb-8 dg-medium text-wrap text-lg leading-none tracking-normal">
+          {comment}
         </p>
-        <p className="italic text-gray-600">
-          (Glycolic Acid 8% Exfoliating Liquid)
+        <p className="italic text-lg dg-medium text-gray-600">
+          {product_name}
         </p>
       </div>
     </div>

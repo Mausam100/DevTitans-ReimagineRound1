@@ -6,9 +6,6 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        darker: ['Darker'],
-      },
       transitionProperty: {
         'stroke-dasharray': 'stroke-dasharray',
         'stroke-dashoffset': 'stroke-dashoffset',

@@ -153,3 +153,10 @@ FOOTER ------------------
           <div className="orange2 bg-orange-200 w-full h-[10%]"></div>
         </div>
       </div>
+
+
+      ----------------------------------------
+
+      const testimonials = TestimonialData.map((data, index) => (
+  <TestimonialCard key={data.id} emoji={data.emoji} customer_name={data.customer_name} title={data.title} comment={data.comment} date={data.date} product_name={data.product_name} />
+));
