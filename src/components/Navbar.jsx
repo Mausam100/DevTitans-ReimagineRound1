@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className=" w-24 sm:w-36 cursor-pointer">
           <img src={Logo} alt="logo" className="logo" />
         </div>
-        <div className="flex items-center justify-around gap-5 text-3xl font-thin cursor-pointer">
+        <div className="flex items-center justify-around gap-5 text-2xl font-thin cursor-pointer">
           <IoSearch className="hidden sm:block " />
           <LuUser className="hidden sm:block " />
           <CgShoppingCart className="hidden sm:block " />
@@ -26,17 +26,17 @@ const Navbar = () => {
             onClick={toggleMenu}
           >
             <div
-              className={`rounded-2xl h-[3px] w-1/2 bg-black duration-500 origin-right 
+              className={`rounded-2xl h-[2px] w-1/2 bg-black duration-500 origin-right 
         ${
           isOpen ? "rotate-[225deg] -translate-x-[12px] -translate-y-[1px]" : ""
         }`}
             ></div>
             <div
-              className={`rounded-2xl h-[3px] w-full bg-black duration-500 
+              className={`rounded-2xl h-[2px] w-full bg-black duration-500 
         ${isOpen ? "-rotate-45" : ""}`}
             ></div>
             <div
-              className={`rounded-2xl h-[3px] w-1/2 bg-black duration-500 place-self-end origin-left 
+              className={`rounded-2xl h-[2px] w-1/2 bg-black duration-500 place-self-end origin-left 
         ${
           isOpen ? "rotate-[225deg] translate-x-[12px] translate-y-[1px]" : ""
         }`}
