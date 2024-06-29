@@ -97,8 +97,6 @@ dg-{weight-name}
 }
 @media (min-width: 1536px) {
   body {
-    background-color: rgb(238, 236, 231);
-    padding-top:2vh ;
-    padding-bottom:2vh ;
+    background-color: #fff;
   }
 }
