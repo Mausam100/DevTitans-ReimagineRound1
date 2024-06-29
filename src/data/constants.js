@@ -12,12 +12,6 @@ import nl4 from './../assets/images/new-launches/AntiDandruffMain1.avif';
 import nl5 from './../assets/images/new-launches/VitaminB6.avif';
 import nl6 from './../assets/images/new-launches/Underarm.avif';
 
-import babycare from '../assets/images/category/baby_care.jpg';
-import skincare from '../assets/images/category/skin_care.jpg';
-import haircare from '../assets/images/category/hair_care.jpg';
-import bodycare from '../assets/images/category/body_care.jpg';
-import lipcare from '../assets/images/category/lip_care.jpg';
-import eyecare from '../assets/images/category/eye_care.jpg';
 
 const Bestsellers = [
     {
@@ -126,37 +120,6 @@ const TestimonialData = [
 ]
 
 
-const catagoryData = [
-  {
-    num : 1,
-    title : "Baby Care",
-    picsrc : babycare,
-  },
-  {
-    num : 2,
-    title : "Skin Care",
-    picsrc : skincare,
-  },
-  {
-    num : 3,
-    title : "Hair Care",
-    picsrc : haircare,
-  },
-  {
-    num : 4,
-    title : "Body Care",
-    picsrc : bodycare,
-  },
-  {
-    num : 5,
-    title : "Lip Care",
-    picsrc : lipcare,
-  },
-  {
-    num : 6,
-    title : "Eye Care",
-    picsrc : eyecare,
-  },
-]
 
-export { Bestsellers, Newlaunches, TestimonialData, catagoryData };
+
+export { Bestsellers, Newlaunches, TestimonialData, };
