@@ -57,7 +57,7 @@ const HoverEffect = () => {
             <AnimatePresence>
               {hoveredIndex === idx && (
                 <motion.span
-                  className="absolute inset-0 h-[95%] w-[70%] top-2 left-12 bg-slate-400 block rounded-3xl"
+                  className="absolute inset-0  w-52 md:h-[95%] md:w-[70%] top-2 md:left-12 left-28 bg-slate-300 block rounded-3xl"
                   layoutId="hoverBackground"
                   initial={{ opacity: 0 }}
                   animate={{
@@ -72,7 +72,7 @@ const HoverEffect = () => {
               )}
             </AnimatePresence>
             <div className="container flex flex-col justify-around items-center">
-              <div className="w-full sm:w-48 h-10 bg-[#E5E9EA] rounded-t-2xl flex items-center justify-center dg-medium tracking-wider gap-3 px-4">
+              <div className="w-[40vw] sm:w-48 h-10 bg-[#E5E9EA] rounded-t-2xl flex items-center justify-center dg-medium tracking-wider gap-3 px-4">
                 <div className="w-[10%] h-2 z-30  border-neutral-500 border-2 rounded-full"></div>
                 <h3 className="w-4/5 text-xl z-30 text-center text-nowrap">
                   {project.title}
