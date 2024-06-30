@@ -60,7 +60,7 @@ To run this project locally, follow these steps:
 
 ## Team Members and Contributions
 - **S Omkar Iyer:** Project Lead, UX/UI Designer, Responsivness, Structual Frontend Developer
-- **Somil Suryavanshi** UX/UI Designer, Responsiveness, Structural Frontend Development
+- **Somil Suryavanshi:** UX/UI Designer, Responsiveness, Structural Frontend Development
 - **Mousam Singh:** Logical Frontend Developer, Animations and Interactions, Github Collaboration Lead
 - **Aashish:** Animations
 
