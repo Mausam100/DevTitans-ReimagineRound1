@@ -73,16 +73,16 @@ const HoverEffect = () => {
             </AnimatePresence>
             <div className="container flex flex-col justify-around items-center">
               <div className="w-full sm:w-48 h-10 bg-[#E5E9EA] rounded-t-2xl flex items-center justify-center dg-medium tracking-wider gap-3 px-4">
-                <div className="w-[10%] h-2 z-40  border-neutral-500 border-2 rounded-full"></div>
-                <h3 className="w-4/5 text-xl z-40 text-center text-nowrap">
+                <div className="w-[10%] h-2 z-30  border-neutral-500 border-2 rounded-full"></div>
+                <h3 className="w-4/5 text-xl z-30 text-center text-nowrap">
                   {project.title}
                 </h3>
-                <div className="w-[10%] h-2 z-40  border-neutral-500 border-2 rounded-full"></div>
+                <div className="w-[10%] h-2 z-30  border-neutral-500 border-2 rounded-full"></div>
               </div>
               <div className="w-[40vw] sm:w-48 h-[50vw] sm:h-64 p-4 bg-[#E5E9EA] rounded-b-2xl flex items-center justify-center overflow-hidden">
                 <img
                   src={project.image}
-                  className="w-full h-full z-40 object-cover contrast-125 brightness-110 rounded-2xl overflow-hidden"
+                  className="w-full h-full z-30 object-cover contrast-125 brightness-110 rounded-2xl overflow-hidden"
                   alt={project.title}
                 />
               </div>
