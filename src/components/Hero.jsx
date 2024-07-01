@@ -10,6 +10,11 @@ import Model from "../assets/images/girl.png";
 import { LuDot } from "react-icons/lu";
 import { FaArrowRightLong } from "react-icons/fa6";
 
+import { Canvas } from '@react-three/fiber';
+import GTLFModel from './Model';
+import Loader from './Loader';
+import { gsap } from 'gsap';
+
 const concerns = [
   {
     id: 1,
@@ -44,9 +49,11 @@ const concerns = [
 ];
 
 const Hero = () => {
+  const modelPath = "/3d/headphone.gltf";
   return (
     <>
       <main className=" bg-white w-full h-fit flex flex-col md:flex-row p-5 md:p-10 mt-8 justify-evenly gap-10 md:gap-0">
+        
         <div
           id="left"
           className="w-full md:w-1/2 flex flex-col justify-evenly gap-5"
@@ -95,8 +102,16 @@ const Hero = () => {
             or Want FLAWLESS skin & hairs ?
           </h2>
         </div>
+        <div className="flex-1 w-fit">
+        <Canvas>
+          <React.Suspense fallback={<Loader />}>
+            <ambientLight intensity={0.5} />
+            <GTLFModel modelPath={modelPath} />
+          </React.Suspense>
+        </Canvas>
+      </div>
 
-        <div
+        {/* <div
           id="right"
           className="w-full md:w-1/2 flex flex-col gap-5 sm:flex-row sm:justify-around items-start sm:items-center md:text-center"
         >
@@ -121,7 +136,7 @@ const Hero = () => {
             <img src={Model} alt="model" className="w-full h-auto" />
             <p className=""></p>
           </div>
-        </div>
+        </div> */}
       </main>
     </>
   );

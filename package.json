@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@gsap/react": "^2.1.1",
+    "@react-three/drei": "^9.108.1",
+    "@react-three/fiber": "^8.16.8",
     "clsx": "^2.1.1",
     "framer-motion": "^11.2.12",
     "gsap": "^3.12.5",
@@ -18,7 +20,9 @@
     "react-dom": "^18.2.0",
     "react-icons": "^5.2.1",
     "react-router-dom": "^6.24.0",
-    "tailwind-merge": "^2.3.0"
+    "react-scrollama": "^2.3.3",
+    "tailwind-merge": "^2.3.0",
+    "three": "^0.166.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
