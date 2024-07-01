@@ -13,6 +13,7 @@
     "@gsap/react": "^2.1.1",
     "@react-three/drei": "^9.108.1",
     "@react-three/fiber": "^8.16.8",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
     "clsx": "^2.1.1",
     "framer-motion": "^11.2.12",
     "gsap": "^3.12.5",
