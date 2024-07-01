@@ -3,7 +3,7 @@ import Mobile from "../assets/images/AppImg.png";
 import Face from "../assets/images/face.png";
 const DownloadApp = () => {
   return (
-    <section className="p-10 md:flex md:p-0  ">
+    <section className="p-10 md:flex md:p-0 ">
       <div className=" sm:flex gap-4 md:w-2/3 ">
         <div className="img mt-8 hidden sm:block sm:w-48 md:w-72 md:mt-0 md:ml-4 ">
           <img className="w-full h-auto " src={Mobile} alt="App" />
