@@ -15,9 +15,14 @@ import DownloadApp from "./components/DownloadApp";
 import ConcernMarquee from "./components/ConcernMarquee";
 import OfferMarquee from "./components/OfferMarquee";
 import Testimonials from "./components/Testimonials";
+import LocomotiveScroll from 'locomotive-scroll';
+
+
+
 
 
 function App() {
+  const locomotiveScroll = new LocomotiveScroll();
   return (
     <div className=" w-screen h-auto ">
       <OfferMarquee />

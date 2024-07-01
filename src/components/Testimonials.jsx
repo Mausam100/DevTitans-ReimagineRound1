@@ -5,7 +5,7 @@ import TestimonialCard from './TestimonialCard';
 function Testimonials() {
   return (
     <>
-    <div className="p-10 w-screen h-auto flex flex-col lg:flex-row sm:flex-col ld:items-center ld:justify-between div-scrollbar-horizontal whitespace-nowrap">
+    <div className="p-10 w-screen h-auto flex flex-col lg:flex-row sm:flex-col ld:items-center ld:justify-between div-scrollbar-horizontal whitespace-nowrap ">
       <div className="sm:w-full lg:w-[20%] h-auto pb-8">
         <h4 className="text-5xl dg-light text-black leading-none">
           Our Customer's
