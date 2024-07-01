@@ -10,9 +10,6 @@ export default {
         'stroke-dasharray': 'stroke-dasharray',
         'stroke-dashoffset': 'stroke-dashoffset',
       },
-      aspectRatio: {
-        '9/16': '9 / 16',
-      },
     },
   },
   plugins: [
