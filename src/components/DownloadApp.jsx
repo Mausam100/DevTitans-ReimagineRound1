@@ -6,13 +6,13 @@ import { BiLogoPlayStore } from "react-icons/bi";
 import { IoIosAppstore } from "react-icons/io";
 const DownloadApp = () => {
   return (
-    <section className="p-10 md:flex md:pb-20  ">
-      <div className=" sm:flex gap-4 md:w-2/3 items-center justify-center ">
-        <div className="img mt-8 hidden sm:block sm:w-48 md:w-72 md:mt-0 md:ml-4 ">
+    <section className="p-10 flex md:flex-row md:pb-20 bg-emerald-300 items-center justify-center sm:gap-5">
+      <div className=" sm:flex md:w-2/3 items-center justify-center ">
+        <div className="img mt-8 hidden sm:block sm:w-48 md:w-72 md:mt-0 md:ml-4 bg-amber-300">
           <img className="w-full h-auto " src={Mobile} alt="App" />
         </div>
 
-        <div className=" sm:al flex flex-col items-center md:ml-4">
+        <div className=" sm:al flex flex-col items-center md:ml-4 bg-pink-300">
           <h2 className=" text-5xl text-center text-nowrap">Download Our </h2>
           <h3 className=" text-8xl text-center -mt-4 relative">App
             <span className="absolute top-6 -right-10 bg-[#cccccc] rounded-full w-8 h-8"><GoArrowUpRight className="w-4 h-4 translate-x-1/2 translate-y-1/2" /></span>
@@ -36,7 +36,9 @@ const DownloadApp = () => {
           </div>
         </div>
       </div>
-      <div className="modelimg hidden md:flex w-[30%] ml-40 justify-end">
+
+
+      <div className="modelimg hidden md:flex w-[30%] ml-40 justify-end bg-blue-300">
         <div className="relative w-full">
           <img className="w-full aspect-h-9/16 object-cover" src={Face} alt="Model" />
         </div>
