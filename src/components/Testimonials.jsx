@@ -1,12 +1,13 @@
-import React from "react";
-import { TestimonialData } from "../data/constants";
-import TestimonialCard from "./TestimonialCard";
+import React from 'react';
+import { motion } from 'framer-motion';
+import { TestimonialData } from '../data/constants';
+import TestimonialCard from './TestimonialCard';
 
 function Testimonials() {
   return (
     <>
-      <div className="p-10 w-screen h-auto flex flex-col lg:flex-row sm:flex-col ld:items-center ld:justify-between div-scrollbar-horizontal whitespace-nowrap ">
-        <div className="sm:w-full lg:w-[20%] h-auto ">
+      <div className="p-10 w-screen h-auto flex flex-col lg:flex-row sm:flex-col lg:items-center lg:justify-between">
+        <div className="sm:w-full lg:w-[20%] h-auto">
           <h4 className="text-5xl dg-light text-black leading-none">
             Our Customer's
           </h4>
@@ -18,8 +19,15 @@ function Testimonials() {
         </div>
       </div>
 
-      <div className="p-4 pb-20 ld:w-[60%] h-auto flex flex-row gap-10 div-scrollbar-horizontal rounded-xl snap-x sm:self-center sm:w-[100%]">
-        {TestimonialData.map((data, index) => (
+      <motion.div
+        className="p-4 pb-20 lg:w-[60%] h-auto flex flex-row gap-10  rounded-xl snap-x sm:self-center sm:w-[100%]"
+        animate={{ x: [ 0, -1000] }} 
+        transition={{ 
+          x: { repeat: Infinity, repeatType: 'loop', duration: 5 }, 
+          ease: 'linear' 
+        }}
+      >
+        {TestimonialData.map((data) => (
           <TestimonialCard
             key={data.id}
             emoji={data.emoji}
@@ -30,7 +38,7 @@ function Testimonials() {
             product_name={data.product_name}
           />
         ))}
-      </div>
+      </motion.div>
     </>
   );
 }
