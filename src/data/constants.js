@@ -127,7 +127,7 @@ const TestimonialData = [
     id: 1,
     emoji: "https://via.placeholder.com/40",
     customer_name: "Shrayasi B.",
-    title: "After Finishing two Bottles...",
+    title: "Beneficial Product",
     comment: "Minimalist 10% vitamin c is the only product which shows result on my skin. I am obsessed with the result of this product.",
     date: "06/09/24",
     product_name: "Vitamin K + Retinal 1% Eye Cream",
