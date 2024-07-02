@@ -49,7 +49,8 @@ const concerns = [
 ];
 
 const Hero = () => {
-  const modelPath = "/3d/headphone.gltf";
+  // const modelPath = "/3d/headphone.gltf";
+  const modelPath = "/3d/headphoneanim.gltf";
   return (
     <>
       <main className=" bg-white w-full h-fit flex flex-col md:flex-row p-5 md:p-10 mt-8 justify-evenly gap-10 md:gap-0">
