@@ -21,9 +21,9 @@ function Testimonials() {
 
       <motion.div
         className="p-4 pb-20 lg:w-[60%] h-auto flex flex-row gap-10  rounded-xl snap-x sm:self-center sm:w-[100%]"
-        animate={{ x: [ 0, -1000] }} 
+        animate={{ x: [0, -1000] }} 
         transition={{ 
-          x: { repeat: Infinity, repeatType: 'loop', duration: 5 }, 
+          x: { repeat: Infinity, repeatType: 'loop', duration: 30 }, 
           ease: 'linear' 
         }}
       >
@@ -36,15 +36,6 @@ function Testimonials() {
             comment={data.comment}
             date={data.date}
             product_name={data.product_name}
-            animate={{ x: [0, -1000] }}
-            transition={{
-              x: {
-                repeat: Infinity,
-                repeatType: "loop",
-                duration: 20,
-                ease: "linear",
-              },
-            }}
           />
           
         ))}
