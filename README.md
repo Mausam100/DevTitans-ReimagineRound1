@@ -1,6 +1,6 @@
 # Re-Imagine Contest Submission: BeMinimalist.co Redesign
 
-> WORK-IN-PROGRESS (WILL BE READY BEFORE FINAL SUBMISSION DATES)
+> WORK-IN-PROGRESS (WILL BE READY BEFORE 7TH JULY)
 
 ### Hosted Website :
 
@@ -33,21 +33,39 @@ This repository contains the code for our redesigned version of BeMinimalist.co.
 
 ## Technologies Used
 - **Structure and Logic:** HTML5, CSS3, TailwindCSS, Vanilla JavaScript, React.js
-- **Animations, Interactions, Smooth Experience:** GSAP,  
+- **Animations, Interactions, Smooth Experience:** GSAP, locomotive-scroll, framer-motion
+- **3D Render:** Blender 3.6 (Cycles Engine)
 - **Version Control and Collaboration:** Git, GitHub
 
 ## Installation and Usage
 To run this project locally, follow these steps:
-1. Clone the repository: `git clone https://github.com/t`
-2. Navigate to the project directory: `cd `
+1. Clone the repository: `https://github.com/Mausam100/DevTitans-ReimagineRound1.git`
+2. Navigate to the project directory: `cd DevTitans-ReimagineRound1`
 3. Install dependencies: `npm i`
 4. Start the development server: `npm run dev`
-5. Open your browser and go to `http://localhost:517`
+5. Open your browser and go to `http://localhost:5174`
 
 
 ## Design Approach
 ### Problem Solved
-*Provide details about the key issues with the original design and how the redesign addresses them.*
+- Home Page
+    - Added images of common problems people face, exactly for which skincare is considered by so many, invoking a sense of relatibility and trust.
+    - Immediately after grabbing their attention with a question hook (concern images, "or Want FLAWLESS skin & hairs ?"), we added a clear-cut CTA by providing out products as solutions (irresistible-offer) to their problems and adding a "Shop Now" button.
+    - The Image depicts a model with an ideal, perfect skin which people aspire to obtain.
+    - Addressed alignment issues for seamless display across all screen sizes.
+    - Ensured images remain consistent and "non-duplicated/tiled" on various devices.
+    - Enhanced readability by optimizing spacing and margins, particularly beneficial on different screen-sizes.
+
+- Cant' Doubt our Products (from og website - "The future of personal care is here" section)
+    - By statement of straight-forward, short and bold title, we have ensured to attract attention and get the trust before they scroll further.
+    - In the original website, this section was pulled down, but we believe benfits section which also states brand's values is extremely important,  and should be kept at the top.
+    - For confused buyers/visitors, brand has offered a detailed quiz, which was originally confused with several names and path, but we have clearly mentioned it as a quiz which is a straight option for visitors.
+
+- Our Best Sellers
+    - Each picture can be slided in the original website, a feature which we found unnecesaary and interfering with scroll-usability, has been therefore removed.
+    - due to close padding of information, the emphasis of benefits has got suppressed which won't grab attention of visitors and give them a motivation to decide upon purchase leading to lower sales. The small-size of pricing is a readabiity issue.
+    - the stars have been removed, cuz as per original score, all the products seem to have similar amount of stars which puts a question mark on the creadibility of ratings, lower stars might even create a inferior percieved image of product. Additionally due to similarity, there's no parameter for comparision of products based on reviews, specially on similar products like cleanser-variants.
+
 
 ### User Experience Enhancements
 *Outline the improvements made to enhance the user experience, such as navigation, load times, and accessibility.*
