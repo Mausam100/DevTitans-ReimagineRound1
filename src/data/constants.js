@@ -389,7 +389,70 @@ const TestimonialData = [
     comment: "The 2% Hyaluronic Acid serum has hydrated my skin wonderfully and made it feel plump and smooth. I am very happy with this purchase.",
     date: "07/13/24",
     product_name: "2% Hyaluronic Acid Serum"
-  }  
+  },
+  {
+    id: 29,
+    emoji: female4,
+    customer_name: "Anna W.",
+    title: "Effective and Affordable",
+    comment: "The 1% Retinol cream has been fantastic for improving my skin texture. It has helped reduce fine lines and is worth the price.",
+    date: "07/07/24",
+    product_name: "1% Retinol Cream"
+  },
+  {
+    id: 30,
+    emoji: male7,
+    customer_name: "Omar G.",
+    title: "Brightening Wonder!",
+    comment: "The 5% Vitamin C eye cream has brightened my under-eye area and reduced puffiness. It has become a staple in my skincare routine.",
+    date: "07/08/24",
+    product_name: "5% Vitamin C Eye Cream"
+  },
+  {
+    id: 31,
+    emoji: female5,
+    customer_name: "Aliyah S.",
+    title: "Really Impressed!",
+    comment: "The 10% Lactic Acid exfoliator has made my skin feel so smooth and bright. I would definitely recommend it for regular exfoliation.",
+    date: "07/09/24",
+    product_name: "10% Lactic Acid Exfoliator"
+  },
+  {
+    id: 32,
+    emoji: male5,
+    customer_name: "Sam D.",
+    title: "Fantastic for Oily Skin",
+    comment: "This 3% Glycolic Acid toner has helped balance my oily skin and reduce pores. It is an excellent addition to my skincare routine.",
+    date: "07/10/24",
+    product_name: "3% Glycolic Acid Toner"
+  },
+  {
+    id: 33,
+    emoji: female6,
+    customer_name: "Lena H.",
+    title: "Highly Recommended",
+    comment: "The 0.5% Retinol serum has made a big difference in my skin's appearance. It helps with aging signs and is very effective.",
+    date: "07/11/24",
+    product_name: "0.5% Retinol Serum"
+  },
+  {
+    id: 34,
+    emoji: male6,
+    customer_name: "Raj P.",
+    title: "Amazing for Sensitive Skin",
+    comment: "The 5% Azelaic Acid serum is gentle yet effective for my sensitive skin. It has reduced redness and improved my skin tone.",
+    date: "07/12/24",
+    product_name: "5% Azelaic Acid Serum"
+  },
+  {
+    id: 35,
+    emoji: female7,
+    customer_name: "Tina S.",
+    title: "Love This Product!",
+    comment: "The 2% Hyaluronic Acid serum has hydrated my skin wonderfully and made it feel plump and smooth. I am very happy with this purchase.",
+    date: "07/13/24",
+    product_name: "2% Hyaluronic Acid Serum"
+  },
 ]
 
 

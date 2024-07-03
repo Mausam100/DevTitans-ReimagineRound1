@@ -37,7 +37,7 @@ const SplitTextWithEffect = () => {
   return (
     <div
       ref={textRef}
-      className="flex justify-center items-center w-full h-[100vh] dg-medium"
+      className="flex justify-center items-center w-full h-[80vh] dg-medium"
     >
       <p className=" text-2xl sm:text-3xl md:text-4xl lg:text-6xl">
         <span className="flex items-end">

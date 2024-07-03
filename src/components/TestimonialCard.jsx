@@ -2,7 +2,7 @@ import React from 'react';
 
 function TestimonialCard({ emoji, customer_name, title, comment, date, product_name }) {
   return (
-    <div className="bg-[#E5E9EA] p-4 w-96 h-64 rounded-lg shadow-2xl max-w-md mx-auto my-4 group transition-all duration-300 ease-in-out hover:bg-black hover:scale-105 hover:shadow-xl">
+    <div className="bg-[#E5E9EA] p-4 w-96 h-64 rounded-lg shadow-2xl max-w-md mx-auto my-4 group transition-all duration-300 ease-in-out hover:bg-[#C47545] hover:scale-105 hover:shadow-xl">
       <div className="flex items-center justify-between mb-2 text-gray-800 group-hover:text-white">
         <div className="flex items-center">
           <img 

@@ -14,6 +14,8 @@ import { Canvas } from '@react-three/fiber';
 import GTLFModel from './Model';
 import Loader from './Loader';
 import { gsap } from 'gsap';
+import { OrbitControls } from '@react-three/drei';
+import AnimatedModel from "./AnimatedModel";
 
 const concerns = [
   {
@@ -50,7 +52,7 @@ const concerns = [
 
 const Hero = () => {
   // const modelPath = "/3d/headphone.gltf";
-  const modelPath = "/3d/headphoneanim.gltf";
+  const modelPath = "/3d/anim.gltf";
   return (
     <>
       <main className=" bg-white w-full h-fit flex flex-col md:flex-row p-5 md:p-10 mt-8 justify-evenly gap-10 md:gap-0">
@@ -104,15 +106,21 @@ const Hero = () => {
           </h2>
         </div>
         <div className="flex-1 w-fit">
-        <Canvas>
+        {/* <Canvas>
           <React.Suspense fallback={<Loader />}>
             <ambientLight intensity={0.5} />
             <GTLFModel modelPath={modelPath} />
           </React.Suspense>
-        </Canvas>
+        </Canvas> */}
+
+        {/* <Canvas>
+          <ambientLight />
+          <AnimatedModel url={modelPath} />
+          <OrbitControls />
+        </Canvas> */}
       </div>
 
-        {/* <div
+        <div
           id="right"
           className="w-full md:w-1/2 flex flex-col gap-5 sm:flex-row sm:justify-around items-start sm:items-center md:text-center"
         >
@@ -137,7 +145,7 @@ const Hero = () => {
             <img src={Model} alt="model" className="w-full h-auto" />
             <p className=""></p>
           </div>
-        </div> */}
+        </div>
       </main>
     </>
   );
