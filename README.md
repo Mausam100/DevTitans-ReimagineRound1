@@ -92,5 +92,8 @@ To run this project locally, follow these steps:
 - **Aashish:** Animations
 
 ## Asset Credits/Sources
+- Images : Unsplash
 
 ## Inspiration Sources
+- awwwards.com
+- Pinterest
