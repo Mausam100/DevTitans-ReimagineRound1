@@ -46,7 +46,7 @@ const HoverEffect = () => {
 
   return (
     <div className="max-w-5xl mx-auto px-8">
-      <div className="flex items-center justify-center py-4"><h1 className="text-4xl text-center dg-medium"><span className="text-zinc-700 dg-light">Shop</span><br /> by Catagory</h1></div>
+      <div className="flex items-center justify-center py-4"><h1 className="text-4xl text-center dg-medium"><span className="text-zinc-700 dg-light">Shop</span><br /> by Category</h1></div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-10">
         {shopcarddata.map((carddata, idx) => (
           <div
