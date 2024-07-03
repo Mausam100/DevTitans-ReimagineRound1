@@ -1,4 +1,3 @@
-// MouseFollower.js
 import React, { useEffect, useState } from 'react';
 
 const MouseFollower = () => {
@@ -23,7 +22,7 @@ const MouseFollower = () => {
 
     return (
         <div
-            className='fixed pointer-events-none rounded-full -translate-x-1/2 -translate-y-1/2'
+            className='fixed pointer-events-none rounded-full -translate-x-1/2 -translate-y-1/2 hidden md:block'
             style={{
                 width: diameter,
                 height: diameter,
