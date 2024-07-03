@@ -73,7 +73,7 @@ const SplitTextWithEffect = () => {
 
 const Animtext = () => {
   return (
-    <div className="p-8">
+    <div className="px-8 py-2">
       <SplitTextWithEffect />
     </div>
   );

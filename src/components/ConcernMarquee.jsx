@@ -15,7 +15,7 @@ const concernPoints = [
 const ConcernMarquee = () => {
   return (
     <div className="p-5">
-      <div className="w-full h-auto pt-40 flex justify-center">
+      <div className="w-full h-auto pt-32 flex justify-center">
         <h2 className="text-3xl">Our SOLUTIONS TREAT</h2>
       </div>
       {/* ------------------- fist merquee-------------------- */}
