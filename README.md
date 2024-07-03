@@ -43,10 +43,11 @@ To run this project locally, follow these steps:
 5. Open your browser and go to `http://localhost:5174`
 
 ## Challenges
--- Starting frm a team of 4 which got quickly formed, we were very enthusiastic at the start, and were spending time farely on our project. But with time, our 2 members started getting busy in their personal lives and ghosted the project. It was a state of utter confusion. Even we 2 who were active were at our exam phases of college, making it harder to convince them both too. After few weeks we decided to let go of them to move forward and we both fired them from the team. was hard, also first experience of firing someone. Then we started planning for recruiting new members. Posted a detailed guideline of the kind of people we were looking for, so our goals and personlities match, and fortunately it did, we got 3 applicants, outta of whom 2 were chosen based on their skill level, again let go of one, hard. And that was how the final team was formed.
+- Starting frm a team of 4 which got quickly formed, we were very enthusiastic at the start, and were spending time farely on our project. But with time, our 2 members started getting busy in their personal lives and ghosted the project. It was a state of utter confusion. Even we 2 who were active were at our exam phases of college, making it harder to convince them both too. After few weeks we decided to let go of them to move forward and we both fired them from the team. was hard, also first experience of firing someone. Then we started planning for recruiting new members. Posted a detailed guideline of the kind of people we were looking for, so our goals and personlities match, and fortunately it did, we got 3 applicants, outta of whom 2 were chosen based on their skill level, again let go of one, hard. And that was how the final team was formed.
 
--- Recruiting and specially letting go was the hardest part, but we got the taste of real-world team work.
--- Other was, having negligible skills and only basic skill in HTML, CSS and JS at start was a disadvantage, so we had to learn a lot, also we challenged ourselves to learn react.js and tailwind and create entire project on react. On the way, we learned to read docs, learned bit of framer-motion, gsap and scrolltrigger, three js/react-fibre too - used it but didn't work well so we removed.
+- Recruiting and specially letting go was the hardest part, but we got the taste of real-world team work.
+
+- Other was, having negligible skills and only basic skill in HTML, CSS and JS at start was a disadvantage, so we had to learn a lot, also we challenged ourselves to learn react.js and tailwind and create entire project on react. On the way, we learned to read docs, learned bit of framer-motion, gsap and scrolltrigger, three js/react-fibre too - used it but didn't work well so we removed.
 
 ## Design Approach & Focus Areas
 
@@ -58,6 +59,8 @@ To run this project locally, follow these steps:
     - User Experience Enhancements
     - Visual Improvements
     - Animations and Microinteractions
+---
+<br/>
 
 - Home Page
     - Added images of common problems people face, exactly for which skincare is considered by so many, invoking a sense of relatibility and trust.
