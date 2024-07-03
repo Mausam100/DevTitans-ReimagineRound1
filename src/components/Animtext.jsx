@@ -2,6 +2,11 @@ import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Circle from "../assets/images/circle.png";
+import m1 from '../assets/images/pfp/m1.jpg';
+import m2 from '../assets/images/pfp/m2.jpg';
+import f1 from '../assets/images/pfp/f1.jpg';
+import f2 from '../assets/images/pfp/f2.jpg';
+import f3 from '../assets/images/pfp/f3.jpg';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -42,27 +47,27 @@ const SplitTextWithEffect = () => {
       <p className=" text-2xl sm:text-3xl md:text-4xl lg:text-6xl">
         <span className="flex items-end">
           {splitText("Our products are authentic")}
-          <img className="w-10 sm:w-12 md:w-14 h-auto px-2" src={Circle} alt="" />
+          <img className="w-10 sm:w-12 md:w-14 h-auto px-2" src={f1} alt="" />
           {splitText(",")}
         </span>
         <span className="flex items-end">
           {splitText("effective")}
-          <img className="w-10 sm:w-12 md:w-14 h-auto px-2" src={Circle} alt="" />
+          <img className="w-10 sm:w-12 md:w-14 h-auto px-2" src={m1} alt="" />
           {splitText("skincare solutions")}
         </span>
         <span className="flex items-end">
           {splitText("for all your concerns,")}
-          <img className="w-10 sm:w-12 md:w-14 h-auto px-2" src={Circle} alt="" />
+          <img className="w-10 sm:w-12 md:w-14 h-auto px-2" src={f2} alt="" />
           {splitText("with")}
         </span>
         <span className="flex items-end">
           {splitText("each cherrypicked")}
-          <img className="w-10 sm:w-12 md:w-14 h-auto px-2" src={Circle} alt="" />
+          <img className="w-10 sm:w-12 md:w-14 h-auto px-2" src={m2} alt="" />
           {splitText("element")}
         </span>
         <span className="flex items-end">
           {splitText("chosen")}
-          <img className="w-10 sm:w-12 md:w-14 h-auto px-2" src={Circle} alt="" />
+          <img className="w-10 sm:w-12 md:w-14 h-auto px-2" src={f3} alt="" />
           {splitText("for its scientific ")}
         </span>
         {splitText("merit.")}
