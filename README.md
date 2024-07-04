@@ -13,13 +13,10 @@ This project showcases a modern style experience and visual redesign of the [BeM
 3. [Technologies Used](#technologies-used)
 4. [Installation](#installation)
 5. [Usage](#usage)
-6. [Design Approach](#design-approach)
-    - [Problem Solved](#problem-solved)
-    - [User Experience Enhancements](#user-experience-enhancements)
-    - [Visual Improvements](#visual-improvements)
-    - [Animations and Microinteractions](#animations-and-microinteractions)
-7. [Team Members and Contributions](#team-members-and-contributions)
-8. [License](#license)
+6. [Challenges](#challenges)
+7. [Design Approach & Focus Areas](#design-approach-and-focus-areas)
+8. [Team Members and Contributions](#team-members-and-contributions)
+9. [License](#license)
 
 ## Project Description
 This repository contains the code for our redesigned version of BeMinimalist.co. As this is a product-sales and product education oriented website, our focus was on creating a simple but effective, responsive and adaptive website wth good design hierarchy, navigation and clear-cut copies and CTAs to understand customer's needs, channel them through defined siteways, educate them about the about and finally sell customers exactly what they need.
@@ -45,9 +42,26 @@ To run this project locally, follow these steps:
 4. Start the development server: `npm run dev`
 5. Open your browser and go to `http://localhost:5174`
 
+## Challenges
+- Starting frm a team of 4 which got quickly formed, we were very enthusiastic at the start, and were spending time farely on our project. But with time, our 2 members started getting busy in their personal lives and ghosted the project. It was a state of utter confusion. Even we 2 who were active were at our exam phases of college, making it harder to convince them both too. After few weeks we decided to let go of them to move forward and we both fired them from the team. was hard, also first experience of firing someone. Then we started planning for recruiting new members. Posted a detailed guideline of the kind of people we were looking for, so our goals and personlities match, and fortunately it did, we got 3 applicants, outta of whom 2 were chosen based on their skill level, again let go of one, hard. And that was how the final team was formed.
 
-## Design Approach
-### Problem Solved
+- Recruiting and specially letting go was the hardest part, but we got the taste of real-world team work.
+
+- Other was, having negligible skills and only basic skill in HTML, CSS and JS at start was a disadvantage, so we had to learn a lot, also we challenged ourselves to learn react.js and tailwind and create entire project on react. On the way, we learned to read docs, learned bit of framer-motion, gsap and scrolltrigger, three js/react-fibre too - used it but didn't work well so we removed.
+
+## Design Approach & Focus Areas
+
+- Approach
+    - We approached the redesign by first understanding the target customers, the message (values and what are they solving), the brand identity (colors, typo-style, look and feel, (this is a mid-high ticket brand with focus on quality)), watched podcast of it's founder and tried to understand more, observed and dissected upon problems in original, and finally got on discord with team and started brainstorming upon solutions to each of them. Figma was the tool we used for wireframing/design/prototyping.
+
+- Focus Areas
+    - Problem Solving
+    - User Experience Enhancements
+    - Visual Improvements
+    - Animations and Microinteractions
+---
+<br/>
+
 - Home Page
     - Added images of common problems people face, exactly for which skincare is considered by so many, invoking a sense of relatibility and trust.
     - Immediately after grabbing their attention with a question hook (concern images, "or Want FLAWLESS skin & hairs ?"), we added a clear-cut CTA by providing out products as solutions (irresistible-offer) to their problems and adding a "Shop Now" button.
@@ -66,15 +80,13 @@ To run this project locally, follow these steps:
     - due to close padding of information, the emphasis of benefits has got suppressed which won't grab attention of visitors and give them a motivation to decide upon purchase leading to lower sales. The small-size of pricing is a readabiity issue.
     - the stars have been removed, cuz as per original score, all the products seem to have similar amount of stars which puts a question mark on the creadibility of ratings, lower stars might even create a inferior percieved image of product. Additionally due to similarity, there's no parameter for comparision of products based on reviews, specially on similar products like cleanser-variants.
 
+- Out Product in Action (Video Demo) has been removed, as the don't give a realistic feel and look commercially/artifically shot, also have just lil trasitions which is very boring and doesn't grabs attention. In today's time, people like brands who showcase realistic people getting real results and commercial videos aren't effective much anymore.
 
-### User Experience Enhancements
-*Outline the improvements made to enhance the user experience, such as navigation, load times, and accessibility.*
+- As for Shop by Catagory & Shop by Concern, In the previous version of website, before update, they led to the same pages and only were an extra layer which felt irrelevant. Also there are concern filters on product page itself, which eliminates the need for an explicit section. If someone selects, for eg. skincare catagory, in product page they can filter 'acne' for example.
 
-### Visual Improvements
-*Describe the visual changes, including the new color scheme, typography, layout, and overall aesthetic.*
+- What out Customer's say (testimonial section), we replaced the title with a much bolder hook. The stars for all products almost are 5-stars which is gimmiky, so were removed cuz of lack of tangible result-showcase.
 
-### Animations and Microinteractions
-*Detail the animations and microinteractions implemented to create a more engaging and interactive user experience.*
+- "The Skin Analyser" is bascially the 'Quiz' page, again which is misleading by look. So we included that earlier and removed the repetition.
 
 ## Team Members and Contributions
 - **S Omkar Iyer:** Project Lead, UX/UI Designer, Responsivness, Structual Frontend Developer
@@ -83,5 +95,8 @@ To run this project locally, follow these steps:
 - **Aashish:** Animations
 
 ## Asset Credits/Sources
+- Images : Unsplash
 
 ## Inspiration Sources
+- awwwards.com
+- Pinterest
