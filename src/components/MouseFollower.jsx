@@ -9,8 +9,8 @@ const MouseFollower = () => {
   const yprev = useRef(0);
   const timeout = useRef(null);
 
-  const xScaleFactor = 0.05;
-  const yScaleFactor = 0.05;
+  const xScaleFactor = 0.10;
+  const yScaleFactor = 0.10;
   const minScale = 0.8;
   const maxScale = 1.2;
 
