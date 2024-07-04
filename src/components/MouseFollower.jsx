@@ -46,7 +46,7 @@ const MouseFollower = () => {
   return (
     <div
       id="minicircle"
-      className="fixed top-0 left-0 w-4 h-4 bg-black rounded-full pointer-events-none z-[99999]"
+      className="hidden lg:block fixed top-0 left-0 w-4 h-4 bg-black rounded-full pointer-events-none z-[99999]"
       style={{
         transform: `translate(${position.x}px, ${position.y}px) scale(${scale.x}, ${scale.y})`,
         transition: 'cubic-bezier(0.19, 1, 0.22, 1).8s'
