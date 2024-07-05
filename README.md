@@ -1,8 +1,6 @@
 # Re-Imagine Contest Submission: BeMinimalist.co Redesign
 
-> WORK-IN-PROGRESS (WILL BE READY BEFORE 7TH JULY)
-
-### Hosted Website :
+### Hosted Website : https://devtitans-reimagineround1.netlify.app/
 
 ## Overview
 This project showcases a modern style experience and visual redesign of the [BeMinimalist.co](https://beminimalist.co/) website. Our goal was to deliver a fresh, user-friendly, and visually appealing experience that aligns with the minimalist philosophy of the brand while incorporating bold, innovative design elements and solving the problems existing on the original.
@@ -15,8 +13,8 @@ This project showcases a modern style experience and visual redesign of the [BeM
 5. [Usage](#usage)
 6. [Challenges](#challenges)
 7. [Design Approach & Focus Areas](#design-approach-and-focus-areas)
-8. [Team Members and Contributions](#team-members-and-contributions)
-9. [License](#license)
+8. [Asset Credits/Sources](#asset-credits/sources)
+9. [Inspiration Sources](#inspiration-sources)
 
 ## Project Description
 This repository contains the code for our redesigned version of BeMinimalist.co. As this is a product-sales and product education oriented website, our focus was on creating a simple but effective, responsive and adaptive website wth good design hierarchy, navigation and clear-cut copies and CTAs to understand customer's needs, channel them through defined siteways, educate them about the about and finally sell customers exactly what they need.

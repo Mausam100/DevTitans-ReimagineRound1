@@ -23,7 +23,6 @@ function App() {
   const locomotiveScroll = new LocomotiveScroll();
   return (
     <>
-      {/* <Chuha /> */}
       <OfferMarquee />
       <MouseFollower />
       <div className="2xl:flex 2xl:justify-center 2xl: items-start">
