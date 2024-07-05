@@ -13,8 +13,8 @@ This project showcases a modern style experience and visual redesign of the [BeM
 5. [Usage](#usage)
 6. [Challenges](#challenges)
 7. [Design Approach & Focus Areas](#design-approach-and-focus-areas)
-8. [Team Members and Contributions](#team-members-and-contributions)
-9. [License](#license)
+8. [Asset Credits/Sources](#asset-credits/sources)
+9. [Inspiration Sources](#inspiration-sources)
 
 ## Project Description
 This repository contains the code for our redesigned version of BeMinimalist.co. As this is a product-sales and product education oriented website, our focus was on creating a simple but effective, responsive and adaptive website wth good design hierarchy, navigation and clear-cut copies and CTAs to understand customer's needs, channel them through defined siteways, educate them about the about and finally sell customers exactly what they need.
