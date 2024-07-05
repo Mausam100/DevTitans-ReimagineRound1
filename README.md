@@ -1,8 +1,6 @@
 # Re-Imagine Contest Submission: BeMinimalist.co Redesign
 
-> WORK-IN-PROGRESS (WILL BE READY BEFORE 7TH JULY)
-
-### Hosted Website :
+### Hosted Website : https://devtitans-reimagineround1.netlify.app/
 
 ## Overview
 This project showcases a modern style experience and visual redesign of the [BeMinimalist.co](https://beminimalist.co/) website. Our goal was to deliver a fresh, user-friendly, and visually appealing experience that aligns with the minimalist philosophy of the brand while incorporating bold, innovative design elements and solving the problems existing on the original.
