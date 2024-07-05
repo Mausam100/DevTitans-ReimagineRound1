@@ -12,7 +12,7 @@ This project showcases a modern style experience and visual redesign of the [BeM
 4. [Installation](#installation)
 5. [Usage](#usage)
 6. [Challenges](#challenges)
-7. [Design Approach & Focus Areas](#design-approach-and-focus-areas)
+7. [Design Approach and Focus Areas](#design-approach-and-focus-areas)
 8. [Asset Credits/Sources](#asset-credits/sources)
 9. [Inspiration Sources](#inspiration-sources)
 
@@ -47,7 +47,7 @@ To run this project locally, follow these steps:
 
 - Other was, having negligible skills and only basic skill in HTML, CSS and JS at start was a disadvantage, so we had to learn a lot, also we challenged ourselves to learn react.js and tailwind and create entire project on react. On the way, we learned to read docs, learned bit of framer-motion, gsap and scrolltrigger, three js/react-fibre too - used it but didn't work well so we removed.
 
-## Design Approach & Focus Areas
+## Design Approach and Focus Areas
 
 - Approach
     - We approached the redesign by first understanding the target customers, the message (values and what are they solving), the brand identity (colors, typo-style, look and feel, (this is a mid-high ticket brand with focus on quality)), watched podcast of it's founder and tried to understand more, observed and dissected upon problems in original, and finally got on discord with team and started brainstorming upon solutions to each of them. Figma was the tool we used for wireframing/design/prototyping.
